@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .frame{
+        position:absolute;
+        top:50%;
+        left:50%;
+        height:350px;
+        width:350px;
+        border-radius: 4px;
+        margin-top: -200px;
+        margin-left: -200px;
+       background:red;
+       box-shadow: 4px 8px 16px 0 s(0, 0, 0, 0.1);
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+       background: linear-gradient(
+		to right,
+		
+		yellow,
+		red
+	);
+       }
+       .center{
+           position: absolute;
+           top:50%;
+           left:50%;
+           transform: translate(-50%, -50%);
+       }
+       .number{
+           position: relative;
+           height: 100px;
+	width: 200px;
+	margin-left: 10px;
+       }
+       
+       /* .part-one { 
+	position: absolute;
+	top: 13px;
+	left: -29px;
+    background-color: white;
+	width: 45px;
+	height: 23px;
+	z-index: 1;
+    border-radius: 4px;
+    transform: rotate(-45deg);
+    box-shadow: $shad-box;
+
+       } */
+       /* .part-two { 
+	position: absolute;
+	top: 0;
+	left: 0px;
+	background-color: white;
+	width: 30px;
+	height: 100px;
+	z-index: 10;
+	border-radius: 10px;
+	box-shadow: $shad-box;
+   }   */
+  /*  
+  .zero,
+.zero2 {
+	position: absolute;
+	top: 0;
+	width: 100px;
+	height: 100px;
+	z-index: 6;
+	left: 15px;
+	border-radius: 50%;
+	border: 25px solid white;
+	box-sizing: border-box;
+	box-shadow: $shad-box;
+ }   */
+ 
+ 
+ /* .zero2 { 
+	z-index: 4;
+	left: 100px;
+} */
+
+.days {
+	position: relative;
+	color: white;
+	// z-index:21;
+	// top:100px;
+    
+	font-size: 5em;
+	font-weight: 700;
+	text-shadow: 5px 2px 6px pink;
+	text-align: center;
+}
+.code {
+	position: relative;
+	color: white;
+	font-size: 1.5em;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px turquoise;
+	text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="center">
+            <div class="number">
+                <div class="part-one"></div>
+                <div class="part-two"></div>
+                <div class="zero"></div>
+                <div class="zero2"></div>
+            </div>
+            <div class="days">MISS</div>
+            <div class="days">MY</div>
+            <div class="code">MOM</div>
+
+        </div>
+</body>
+</html>
